@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #209fd5;
+}
+.container {
+  padding: 50px 70px;
+}
+.container h1 {
+    font-size: 40px;
+    color: white;
+}
+.container span {
+    color: rgb(255, 81, 0);
+    border-bottom: 4px solid rgb(255, 81, 0);
+}
+.input-box {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.input-box i {
+    cursor: pointer;
+    margin: 5px;
+}
+input {
+    border: 0;
+    outline: none;
+}
+.btn {
+    background-color: rgb(255, 81, 0);
+    color: white;
+    margin-top: 20px;
+}
+.btn:hover {
+    background-color: rgb(172, 61, 10);
+    color: white;
+}
+.alert {
+    width: 34%;
+    margin-top: 20px;
+}
+@media screen and (min-width: 760px) {
+    .input-box {
+        max-width: 50%;
+    }
+}
